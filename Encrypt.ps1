@@ -82,7 +82,7 @@ if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
     $encryptedScript = [Convert]::ToBase64String($encryptedBytes)
 
     # Print the encrypted script to the screen
-    Write-Host "Encrypted Script (Copy this hash and paste it on runner.ps1 when asked):" \r\n
+    Write-Host "Encrypted Script (Copy this hash and paste it on runner.ps1 when asked):"
     Write-Host $encryptedScript
 } else {
     Write-Host "No file selected. Exiting..."
