@@ -48,8 +48,10 @@ Powershell
 2. You will be prompted to paste the encrypted Base64 string (the output from `Encrypt.ps1`).
 3. You will also need to enter the same password used during encryption.
 4. The script will decrypt the Base64 string and execute the PowerShell script.
-================================================================================================================
-This program is provided for educational and research purposes. It should not be used for malicious activities.
-================================================================================================================
+   
+============================================================================================
+ This program is provided for educational and research purposes. It should not be used for malicious activities.
+
+============================================================================================
 
 
