@@ -6,7 +6,7 @@ This repository contains two PowerShell scripts designed to encrypt and run Powe
 - The AES key used for encryption and decryption must match. If the password is incorrect, the decryption will fail.
 - The IV (Initialization Vector) used in both scripts is fixed ("1234567890123456"). For stronger security, consider using a unique IV for each encryption.
 - This solution ensures that the original script content remains secure while being transferred or shared.
-- This script **will NOT** help you bypass antivirus software. It only helps you bypass the signature database layer. If you're interested in bypassing antivirus software, contact me on **TELEGRAM**: [ameeraz19](https://t.me/ameeraz19).
+- This script **will NOT** help you bypass antivirus software. It only helps you bypass the signature database layer. If you're interested in bypassing antivirus software, contact me on **TELEGRAM**: [ameeraz19](https://t.me/ameerz19).
 
 ## PowerShell Script Encryption and Decryption
 
