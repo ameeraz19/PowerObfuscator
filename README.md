@@ -34,6 +34,31 @@ This project consists of two PowerShell scripts that provide a secure way to enc
 4. The script will decrypt the Base64 string and execute the PowerShell script.
 
 ### Example Use Case
+Example of Use
+Encrypting a Script:
+
+bash
+Copy code
+git clone https://github.com/ameeraz19/PowerObfuscator.git
+cd PowerObfuscator
+powershell .\Encryption.ps1
+Running the Encrypted Script:
+
+powershell
+Copy code
+powershell .\Runner.ps1
+GitHub "Copy to Clipboard" Feature
+GitHub now supports "copy to clipboard" buttons for code blocks, making it easier for users to copy commands directly from the README.md. You can make use of the markdown format with triple backticks to show the commands in a code block. Here's how it would look:
+
+markdown
+Copy code
+```bash
+git clone https://github.com/ameeraz19/PowerObfuscator.git
+cd PowerObfuscator
+powershell .\Encryption.ps1
+powershell
+Copy code
+powershell .\Runner.ps1
 
 #### Encrypting a Script:
 1. Run `Encrypt.ps1`.
