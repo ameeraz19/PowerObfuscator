@@ -1,3 +1,35 @@
+# Clear the console window to create a fresh view
+Clear-Host
+
+# Define your username, Telegram, and GitHub links
+$bannerText = @"
+***************************************************************
+*                    PowerShell Script                         *
+*                      by Ameeraz19                            *
+*                                                              *
+*           Telegram: https://t.me/ameeraz19                   *
+*           GitHub: https://github.com/ameeraz19               *
+***************************************************************
+"@
+
+# Set the color for the banner text
+$foregroundColor = "Cyan" # You can change this color to whatever you like
+$backgroundColor = "Black" # You can also change the background color if needed
+
+# Set the text colors
+$host.ui.RawUI.ForegroundColor = $foregroundColor
+$host.ui.RawUI.BackgroundColor = $backgroundColor
+
+# Display the banner at the top of the window
+Write-Host $bannerText
+
+# Reset the console colors after the banner
+$host.ui.RawUI.ForegroundColor = "White"
+$host.ui.RawUI.BackgroundColor = "Black"
+
+# Continue with the rest of your script
+Write-Host "The script is now running!"
+
 Add-Type -AssemblyName "System.Windows.Forms"
 
 # Create a PowerShell form to serve as the owner window
