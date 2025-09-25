@@ -1,7 +1,6 @@
 # Clear the console window to create a fresh view
 Clear-Host
 
-# Define your username, Telegram, and GitHub links
 $bannerText = @"
 ***************************************************************
 *                    PowerShell Script                         *
